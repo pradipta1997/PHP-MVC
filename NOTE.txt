@@ -1,0 +1,41 @@
+SEMUA ALUR DAN CATATAN PADA SERI PHP MVC INI ADA
+DI CHANNEL (WEB PROGRAMMING UNPAS) DI SERI (PHP MVC).
+
+
+========================================================
+LIST STEP BY STEP :
+
+1.Pendahuluan :Materi
+
+2.Persiapan : Pembuatan Folder dan Sub Folder, Menghubungkan file di 
+	      (init.php, index.php)
+
+3.Routing   : Membentuk url di (App.php) bagian "method parseURL()" &
+	      Membuat .htaccess di folder (public dan app)
+
+4.Controller : Membuat file (Home.php & About.php) & membuat property dan
+	       method pada file (App.php)
+
+5.View : membuat semua file yang ada pada folder (views) dan
+	 file header.php - footer.php
+
+6.Asset : memasukan "Boostrap", membuat file "Constants.php".
+
+7.Model : membuat semua yang ada di folder model & database (phpmyadmin).
+
+8.Database Wrapper : -membuat folder config & file config.php,
+		     -membuat Database.php,
+		     -menghubungkan ke mvc.
+
+9.Insert Data : -Tombol modal, Modal pada file view mahasiswa index.php
+		-Function tambahDataMahasiswa pada folder model file Mahasiswa_model.php
+		-Function tambah pada foder controllers file Mahasiswa.php
+
+10.Flash Message : -Flasher.php pada folder core
+		   -Menambahkan setFlash di function tambah&hapus pada file controllers Mahasiswa.php
+		   -Memanggil flasher message pada folder view di file index.php
+
+11.Delete Data : -function hapusDataMahasiswa di file Mahasiswa_model.php pada folder model
+		 -function hapus di file Mahasiswa.php pada folder controllers
+
+12.Update Data : 
